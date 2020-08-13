@@ -1,17 +1,18 @@
 import React from 'react';
 import './App.css';
 import Sidebar from "./Sidebar";
-
+import Feed from "./Feed";
+import Widgets from "./Widgets";
 function App() {
   return (
     <div className="app">
-      <h1>LET'S BUILD A TWITTER CLONE!! LET'S GO!</h1>
-      {/**Side Bar */}
       <Sidebar />
 
       {/**Feed */}
+      <Feed/>
 
       {/**Widgets */}
+      <Widgets/>
     </div>
   );
 }
